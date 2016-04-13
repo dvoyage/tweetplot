@@ -1,4 +1,4 @@
-#adapted from anonymous tweeting script http://pastebin.com/WMEh802V
+#adapted from anonymous tweeting script created by @A_Comcast_User - http://pastebin.com/WMEh802V
 
 import os
 import sys
