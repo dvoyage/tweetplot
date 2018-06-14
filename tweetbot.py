@@ -40,10 +40,10 @@ def test():
         out_file.close()
 
         #connect to twitter
-        TOKEN="3239689738-xoctcRie0vRyuiqxyJ3GC4hNk1Hz7bJ5jiVFYbO"
-        TOKEN_SECRET="omVZ0tTjBHguC8LZnuXnOjtwjMiX1u0IOaUVg74n41Nsb"
-        CON_KEY="83khO18a93rhQDDgg9p4q6iKw"
-        CON_SECRET="CmER67mORzeSdMpBu19LPia7en90mIW99VydJNRD5enXehFY7y"
+        TOKEN="[insert token]"
+        TOKEN_SECRET="[insert secret]"
+        CON_KEY="[insert key]"
+        CON_SECRET="[insert secret]"
 
         my_auth = twitter.OAuth(TOKEN,TOKEN_SECRET,CON_KEY,CON_SECRET)
         twit = twitter.Twitter(auth=my_auth)
